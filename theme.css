@@ -1,0 +1,321 @@
+body{
+
+  font-family: arial;
+  margin: 0;
+  padding:0
+}
+.parallax{
+  background-image: url(bgimage3.jpg);
+}
+.dropdown{
+  margin: 0 auto;
+}
+nav{
+  height:60px;
+  background: #2c3e50;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+  float: left;
+  margin-right: 30px;
+}
+
+nav ul li{
+  background: #2c3e50;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a{
+  display: block;
+  padding: 0 15px;
+  color: white;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+  background: #243342;
+}
+
+nav ul ul{
+  position: absolute;
+  top:60px;
+  display: none;
+}
+
+*
+nav ul li:hover > ul{
+  display: block;
+}
+
+nav ul ul li{
+  width: 250px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+.foodcont{
+  background: green;
+}
+
+menu{
+  height:60px;
+  background: #2c3e50;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+menu ul{
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-right: 30px;
+}
+
+menu ul li{
+  background: #2c3e50;
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+menu ul li a{
+  display: block;
+  padding: 0 15px;
+  color: white;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 20px;
+}
+
+menu ul li a:hover{
+  background: #243342;
+}
+
+menu ul ul{
+  position: absolute;
+  top:60px;
+  display: none;
+}
+
+*menu ul li:hover > ul{
+  display: block;
+}
+
+menu ul ul li{
+  width: 250px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+.btn1{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%-50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.btn2{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%-50%);
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+input{
+  border: 3px solid #32e17c;
+  height: 40px;
+  width: 300px;
+  border-radius: 50px;
+  padding: 0px 10px;
+}
+
+.search-input:hover{
+  box-shadow: 0 0 10px 2px #5b8c5a;
+  border: 1px solid #5b8c5a;
+}
+
+.search-input{
+  width: 250px;
+  border: black;
+  font-size: 16px;
+  outline: none;
+  margin:15px 0 0 10px;
+}
+
+i{
+  font-size: 20px;
+}
+
+button{
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.frameset{
+  background-color: green;
+  border: none;
+  text-align: center;
+}
+button2 {
+  border: none;
+  background-color: orangered;
+  text-align: center;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+textarea{
+  border: black;
+  text-align: left;
+  width: 100%;
+  height:50%;
+}
+
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.container1 img {
+  width: 100%;
+  height: auto;
+}
+
+.container1 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container1 .btn:hover {
+  background-color: black;
+}
+
+
+.spl {
+  text-align: center;
+  background: none;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+
+
+  .containe {
+    position: relative;
+    width: 50%;
+  }
+  
+  .farm {
+    width: 10px;
+    height: 50%;
+  }
+.containe .fpb {
+    width:100%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .containe1 {
+    position: relative;
+    width: 50%;
+  }
+
+  .containe1 .ppb {
+    width:100%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:blue;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .containe2 {
+    position: relative;
+    width: 50%;
+  }
+
+  .containe2 .pjb {
+    width:100%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:orange;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+
+.first-txt {
+    text-decoration: snow;
+    position: absolute;
+    top: 17px;
+    left: 50px;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+}
+.innerdiv2{
+  padding: 10px;
+}
